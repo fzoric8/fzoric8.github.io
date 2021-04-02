@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Brief docker introduction!"
+---
+
+
 ## Brief Docker introduction 
 
 Docker provides very simple and efficient way to pack your specific application. As stated here: 

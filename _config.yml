@@ -24,11 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Typographic Bits of Technical Tips and Tricks.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: -
-github_username:  fzoric8
-
+twitter_username: "nonexistent" 
+github_username: fzoric8
+#github: [metadata]
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
