@@ -22,7 +22,7 @@ Most of the VCS before git used something called `delta-based` version control
 which tracked changes in source code files and created chains of changes overtime. It's 
 possible as shown in:
 
-![Illustration of delta-based VCS]( {{ BASE_PATH }} /assets/images/git1.png)  
+![Illustration of delta-based VCS]( {{ BASE_PATH }} /assets/images/git1/git1.png)  
 <div align="center"> Figure 1. Illustration of delta-based VCS </div>   
 
 
@@ -34,7 +34,7 @@ changed are not saved again for memory conservation. On next image, we can see d
 code versions (commits) that share unchanged files in checkins (changes) over time, yet
 save files that have been changed since last checkin. 
 
-![Illustration of git VCS]( {{ BASE_PATH }} /assets/images/git2.png)  
+![Illustration of git VCS]( {{ BASE_PATH }} /assets/images/git1/git2.png)  
 <div align="center"> Figure 2. Illustration of git VCS </div>   
 
 
