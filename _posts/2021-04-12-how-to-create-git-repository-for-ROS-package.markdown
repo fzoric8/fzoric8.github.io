@@ -1,4 +1,3 @@
-# How to create git repository for ROS package
 
 ## Introduction 
 
@@ -14,24 +13,24 @@ git repository.
 
 ### Initializing git repository 
 
-1. If you don't have github account [create one](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)  
+[1.] If you don't have github account [create one](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)  
 
-2. After account creation and signing in, you should see screen as shown on Figure1. In upper left corner, click on down arrow beside your avatar and choose `Your Repositories`  
+[2.] After account creation and signing in, you should see screen as shown on Figure1. In upper left corner, click on down arrow beside your avatar and choose `Your Repositories`  
 
 ![Figure 1.]( {{ BASE_PATH }} /assets/images/git2/git1.png)  
 <div align="center"> Figure 1. </div>  
 
-3. After entering `Your repositories section` you should see all your repositories as shown on Figure 2.  
+[3.] After entering `Your repositories section` you should see all your repositories as shown on Figure 2.  
 
 ![Figure 2.]( {{ BASE_PATH }} /assets/images/git2/git2.png)
 <div align="center"> Figure 2.</div>    
 
-4. You can create new repository by clicking green `New` button which will open form that's shown on Figure 3.  
+[4.] You can create new repository by clicking green `New` button which will open form that's shown on Figure 3.  
 ![Figure 3.]( {{ BASE_PATH }} /assets/images/git2/git3.png)
 <div align="center"> Figure 3.</div>  
 
 
-5. Fill out form with `Repository name` matching your ROS package name, add description, setup repo on Public (assuming you have free github account) and ** leave all 
+[5.] Fill out form with `Repository name` matching your ROS package name, add description, setup repo on Public (assuming you have free github account) and ** leave all 
 checkboxes empty in ** `Initialize repository with` section and click Create repository and you should get something on Figure 4.   
 ![Figure 4.]( {{ BASE_PATH }} /assets/images/git2/git4.png)
 <div align="center"> Figure 4.</div>  
@@ -43,22 +42,22 @@ If you have already created your ROS package following this [instructions](http:
 in it as follows:  
 
 
-1. Navigate to ROS package destination `cd <path_to_catkin_ws>/catkin_ws/src/ros_example_pkg`  
+[1.] Navigate to ROS package destination `cd <path_to_catkin_ws>/catkin_ws/src/ros_example_pkg`  
 
 
-2. Initialize git repository `git init`  
+[2.] Initialize git repository `git init`  
 
 
-3. Add all available files with command `git add .` or each file separately `git add <filename>` to staging area  
+[3.] Add all available files with command `git add .` or each file separately `git add <filename>` to staging area  
 
 
-4. Check status of your files in staging area with command `git status`  
+[4.] Check status of your files in staging area with command `git status`  
 
 
-5. If you have added all files you want to track with git, create your first commit with command `git commit -m <custom_message>` e.g. `git commit -m "Initial commit`  
+[5.] If you have added all files you want to track with git, create your first commit with command `git commit -m <custom_message>` e.g. `git commit -m "Initial commit`  
 
 
-6. After commiting your changes, add remote (code stored on a code hosting service e.g. github) to your local git repository using following commands:  
+[6.] After commiting your changes, add remote (code stored on a code hosting service e.g. github) to your local git repository using following commands:  
 
 ```
 git remote add origin https://github.com/<github_username>/<git_repository_name>
@@ -69,7 +68,7 @@ e.g.
 ```
 git remote add origin https://github.com/fzoric8/ros_example_pkg
 ```
-7. After adding remote, you can push your changes to it with following command:
+[7.] After adding remote, you can push your changes to it with following command:
 
 ```
 git push -u origin <branch_name>
