@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Brief docker introduction!"
+title:  "Brief Docker introduction!"
 ---
 
 
