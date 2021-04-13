@@ -4,7 +4,7 @@ title:  "Brief Docker introduction!"
 ---
 
 
-## Brief Docker introduction 
+# Brief Docker introduction 
 
 Docker provides very simple and efficient way to pack your specific application. As stated here: 
 ```
@@ -12,30 +12,30 @@ Developing apps today requires so much more than writing code. Multiple language
 Docker simplifies and accelerates your workflow, while giving developers the freedom to innovate with their choice of tools, application stacks, and deployment environments for each project.
 ```
 
-It makes easier to build different environments and swap them easily without corrupting your local operating system. 
+It makes it easier to build different environments and swap them easily without corrupting your local operating system. 
 
-We're basically creating light-weight isolated environments (images/containers) which have everything that you put into it.
+We're creating lightweight isolated environments (images/containers) which have everything that you put into it.
 
-### How to install Docker? 
+## How to install Docker? 
 
 Instructions for installing Docker can be found [here](https://docs.docker.com/engine/install/ubuntu/)
 
-### Docker terms
+## Docker terms
 
-#### What's Dockerfile? 
+### What's Dockerfile? 
 
 A Dockerfile is a simple text file that contains a list of commands that the Docker client calls while creating an image. It's a simple way to automate the image creation process. The best part is that the commands you write in a Dockerfile are almost identical to their equivalent Linux commands. This means you don't really have to learn new syntax to create your own dockerfiles.
 
-#### What's docker image? 
+### What's docker image? 
 
 A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform.
 
-#### What's docker container? 
+### What's docker container? 
 
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 
-#### Dockerfile commands: 
+### Dockerfile commands: 
 
 | Command    | Purpose                                                                                                                                       |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -49,9 +49,9 @@ A container is a standard unit of software that packages up code and all its dep
 | EXPOSE     | To define which port through which to access your container application.                                                                      |
 | LABEL      | To add metadata to the image.    
 
-#### Docker cheat sheet: 
+### Docker cheat sheet: 
 
-##### How to build Dockerfile? 
+#### How to build Dockerfile? 
 
 Enter corresponding directory and run following command to build docker image: 
 ```
@@ -63,7 +63,7 @@ For concrete example (ros-kinetic with gazebo) run following:
 docker build -t ros_gazebo_img:melodic_11
 ```
 
-##### How to create container out of the Dockerfile? 
+#### How to create container out of the Dockerfile? 
 
 In order to create container from Dockerfile run following commmand:
 ```
@@ -83,17 +83,17 @@ sudo apt-get install -y nvidia-container-toolkit
 ```
 Make sure you have latest drivers for your GPU. 
 
-##### How to start existing docker container after stopping it? 
+#### How to start existing docker container after stopping it? 
 ```
 docker start -i <container_name> 
 ```
 
-##### How to open running container in new bash? 
+#### How to open running container in new bash? 
 ```
 docker exec -it <container_name> bash 
 ```
 
-##### How to kill, stop, remove container? 
+#### How to kill, stop, remove container? 
 
 Kill container: 
 ```

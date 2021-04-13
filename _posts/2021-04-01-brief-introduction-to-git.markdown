@@ -6,14 +6,11 @@ title:  "Brief Git Introduction!"
 
 # Brief introduction to git 
 
-Git is software for version control. I know what's sofware, but version control was 
-a tricky one. Version control sofware is used by sofware developers to maintain 
-documentation and configuration files as well as source code. For bigger software 
-projects with multiple contributors it's impossible to track progress, activity, 
-development status, bugs, errors, issues, conflicts without version control. 
-Therefore, software for version control is rather necessity than luxury. Everyone 
-working with piece of software (development/maintaining) or aiming to 
-program at some part of carreer, (un)fortunately must know fundamentals of version control. 
+Git is software for version control. I know what’s software, but version control was a tricky one. 
+Version control software is used by software developers to maintain documentation and configuration files as well as source code. 
+For bigger software projects with multiple contributors, it’s impossible to track progress, activity, development status, bugs, errors, issues, conflicts without version control. 
+Therefore, software for version control is rather a necessity than a luxury. 
+Everyone working with a piece of software (development/maintaining) or aiming to program at some part of their career, (un)fortunately must-know fundamentals of version control.
 
 ## What is Git? 
 
