@@ -28,8 +28,11 @@ it just fine by yourself.
 
 ### ROS stuff
 
-Pretty cool cheat-sheet for ROS. 
+Pretty cool cheat-sheet for ROS:
 [ROS Cheat-sheet](https://pk.sedenius.com/wp-content/uploads/2020/08/sedenius_ros_cheatsheet.pdf) 
+
+The Robotics Knowledgebase exists to advance knowledge in the robotics discipline: 
+[Robotics knowledge base](https://roboticsknowledgebase.com/)
 
 #### NCNN-ROS
 
@@ -64,9 +67,20 @@ Awesome lectures by Joseph Redmon (creator of YOLO neural network).
 
 [Ancient Secrets of Computer Vision](https://www.youtube.com/watch?v=8jXIAWg_yHU&ab_channel=JosephRedmon) 
 
+#### Deep learning: 
+
+Cool blog by Andrej Karpathy: 
+
+[Blog](http://karpathy.github.io/) 
 
 
-### Rest 
+### Simulations
+
+[GAZEBO-gym](https://github.com/erlerobot/gym-gazebo) 
+
+[AirSim](https://microsoft.github.io/AirSim/) 
+
+[NVIDIA Isaac platform for robotics](https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/) 
 
 I'll eventually add more stuff as I come by it :) 
 
