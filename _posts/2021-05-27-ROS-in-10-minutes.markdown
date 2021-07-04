@@ -31,7 +31,7 @@ It also provides tools and libraries for obtaining, building, writing, and runni
 ## ROS MASTER 
 
 ROS Master provides naming and registration services to the rest of the nodes in the ROS system. 
-It enables various nodes to discover each other, and to communicate with each other peer-to-per. 
+It enables various nodes to discover each other, and to communicate with each other peer-to-peer. 
 ROS Master also provides parameter server which gives us ability to upload/get/set/change parameters
 to extend code modularity (e.g. you can have controller gains loaded to parameter server, and switch 
 them accordingly depending on the robot used). ROS Master uses XMLRPC API which is used to store and retrieve
