@@ -197,6 +197,7 @@ Each ROS package has following data structure:
 * [roscpp overview](http://wiki.ros.org/roscpp/Overview)  
 * [rospy overview](http://wiki.ros.org/rospy/Overview)  
 * [ROS documentation](http://wiki.ros.org/Documentation)   
+* [Master thesis on Croatian about ROS](https://repozitorij.mathos.hr/islandora/object/mathos%3A277/datastream/PDF/view)  
 
 # How to start? 
 

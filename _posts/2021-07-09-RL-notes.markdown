@@ -1,0 +1,26 @@
+# RL notes
+
+This post will contain materials I've been using to grasp basic and advanced concepts of Reinforcement Learning. 
+
+
+### Neural network basics 
+
+1. [Multi-Layer Neural Network](http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/) -> detailed explanation of feedforward neural network
+2. [Understanding LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) --> good introduction to recurrent neural network 
+3. [The Unreasonable Effectivenes of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) --> great blog post to build intuition about RNNs from Andrey Karpathy
+4. [ConvNets: A modular perspective](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/) --> great blog post about convolutional neural networks 
+5. [Convolutional Neural Networks, Stanford](https://cs231n.github.io/) 
+6. [Why are ResNets a major breakthrough in Image Processing](https://analyticsindiamag.com/why-resnets-are-a-major-breakthrough-in-image-processing/) 
+7. [Explanation of attention mechanism](https://arxiv.org/pdf/1706.03762.pdf) 
+
+### RL resources
+
+After presenting relevant resources for Neural netork basics, here I'll put great RL posts 
+
+1. [RL intro](https://github.com/jachiam/rl-intro/blob/master/Presentation/rl_intro.pdf) --> great lecture for introduction about RL  
+2. [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) --> very good argumentation about why it's still not quite feasible to use RL in every occasion 
+
+
+### Cool RL papers 
+
+1. [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236.pdf) 
