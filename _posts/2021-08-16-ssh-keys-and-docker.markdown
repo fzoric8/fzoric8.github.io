@@ -1,4 +1,4 @@
-# Github token
+# Use SSH whith docker 
 
 From recently, github has deprecated pulling, cloning repositores 
 with username and password. Therefore it's neccessary to 
