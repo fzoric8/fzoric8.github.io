@@ -67,11 +67,13 @@ Awesome lectures by Joseph Redmon (creator of YOLO neural network).
 
 [Ancient Secrets of Computer Vision](https://www.youtube.com/watch?v=8jXIAWg_yHU&ab_channel=JosephRedmon) 
 
-#### Deep learning: 
+#### Tech blogs 
 
-Cool blog by Andrej Karpathy: 
+Cool blogs with vast amount of useful informations: 
 
-[Blog](http://karpathy.github.io/) 
+[vsupalov blog](https://vsupalov.com/articles/) 
+
+[andrey karpathy blog](http://karpathy.github.io/) 
 
 
 ### Simulations
