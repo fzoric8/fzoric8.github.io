@@ -86,3 +86,8 @@ Cool blogs with vast amount of useful informations:
 
 I'll eventually add more stuff as I come by it :) 
 
+### Programming 
+
+[Awesome resources for learning Python](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) 
+
+[LearnCPP](https://www.learncpp.com/) 
