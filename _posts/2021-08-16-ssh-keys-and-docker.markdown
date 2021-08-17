@@ -91,4 +91,4 @@ You can check these awesome resources from GitHub:
 
 # More resources: 
 1. [How does ssh work](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work) 
-2. [SSH protocol](https://www.ssh.com/academy/ssh/protocol]
+2. [SSH protocol](https://www.ssh.com/academy/ssh/protocol)
