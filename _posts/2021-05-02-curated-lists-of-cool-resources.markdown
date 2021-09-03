@@ -91,3 +91,5 @@ I'll eventually add more stuff as I come by it :)
 [Awesome resources for learning Python](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) 
 
 [LearnCPP](https://www.learncpp.com/) 
+
+[Learn ROS from scratch](https://sir.upc.edu/projects/rostutorials/index.html)
