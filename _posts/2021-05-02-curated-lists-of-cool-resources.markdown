@@ -93,3 +93,5 @@ I'll eventually add more stuff as I come by it :)
 [LearnCPP](https://www.learncpp.com/) 
 
 [Learn ROS from scratch](https://sir.upc.edu/projects/rostutorials/index.html)
+
+[Ros control and hardware interfaces](https://www.rosroboticslearning.com/ros-control) 
