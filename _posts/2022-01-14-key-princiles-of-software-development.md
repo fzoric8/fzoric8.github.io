@@ -2,7 +2,7 @@
 
 There are few principles everyone who writes software should follow. 
 
-Main idea is to make it easier to program, maintain and use code. Always everyone, especially 
+Main idea is to make it easier to program, maintain and use code. Almost everyone, especially 
 roboticists tend to forget importance of clean code and simplicity, which in turn results 
 in all sorts of problems such as unreadable code, unmaintainable code and finally, which 
 is worst of all, **unusable code**. I would be brave enough and call those principles, 
@@ -11,8 +11,14 @@ any kind of complex system without following them.
 
 I'm often saddened when I see really great and smart stuff in banged up code. A lot of 
 code you write, will be used only by yourself which makes you think that it's not 
-neccessary to follow those principles, however, your future self will be forever greatful 
-to you if you simply learn to follow them all along. 
+neccessary to follow those principles, however, **your future self will be forever greatful 
+to you if you simply learn to follow them all along.**
+
+A lot of times I thought I will be faster if I just write something and don't care 
+about anything aside pure functionality, and that's fine for some rapid prototyping, 
+however, if you plan to work on something for more than week or two, I really 
+suggest to folow those principles. You'll probably be slower in the short term, 
+however, in the long term you'll be significantly faster. 
 
 ## KISS (Keep it Simple, Stupid) 
 
