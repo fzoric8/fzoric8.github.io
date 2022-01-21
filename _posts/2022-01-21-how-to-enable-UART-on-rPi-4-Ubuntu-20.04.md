@@ -68,7 +68,7 @@ cd <uboot_path> && make rpi_4_defconfig && make CROSS_COMPILE=aarch64-linux-gnu-
 6. Enable UART in `syscfg.txt` by setting `enable_uart=0` to `enable_uart=1` 
 
 ** Your Raspberry PI now has UART enabled. If you want to test serial communication and
-be sure that permissions are fine use this [tutorial](https://www.youtube.com/watch?v=StFZj7gSwNs). 
+be sure that permissions are fine use this [tutorial](https://www.youtube.com/watch?v=StFZj7gSwNs). **
 
 Have a nice day :) 
  
