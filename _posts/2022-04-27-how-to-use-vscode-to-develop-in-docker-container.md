@@ -76,7 +76,7 @@ docker start -i <container_name>
 
 Whole process is shown in Animation 1. 
 
-![Animation 1.]( {{ BASE_PATH }} /assets/images/remote_dev/how_to_run_vscode.png)
+![Animation 1.]( {{ BASE_PATH }} /assets/images/remote_dev/how_to_run_vscode.gif)
 
 ## Configure VSCode in your container
 
