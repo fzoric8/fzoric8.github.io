@@ -55,7 +55,7 @@ Run vscode locally with:
 code
 ```
 
-When vscode opens, use extensions pack to install [remote containers](https://www.google.com/search?channel=fs&client=ubuntu&q=remote+containers+) plugin.
+When vscode opens, use extensions to install [remote containers](https://www.google.com/search?channel=fs&client=ubuntu&q=remote+containers+) plugin.
 
 After installation of remote containers plugin, restart vscode. 
 
@@ -118,4 +118,5 @@ Current development pipeline is shown on Figure 2.
 ## More info 
 
 1. Tutorial for remote containers plugin can be found [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+2. Debug ROS nodes following this [tutorial](https://github.com/ms-iot/vscode-ros/blob/master/doc/debug-support.md)
 
