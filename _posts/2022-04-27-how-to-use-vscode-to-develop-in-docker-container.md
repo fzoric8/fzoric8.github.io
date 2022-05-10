@@ -43,8 +43,9 @@ Extensions can be found in upper left corner of the editor as shown in Figure 1.
 On Figure 1. you can find following: 
 1. Extensions button 
 2. Search bar
-3. Extension Name
-4. Install/Disable button
+3. Install/Disable button
+4. Extension Name
+
 
 **Extensions have to be installed in your container vscode in order to use them inside of a container.**
 
