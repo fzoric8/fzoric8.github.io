@@ -1,13 +1,15 @@
 # Vim tutorial and commands 
 
 Vim is a text editor that has 3 most important modes of work: 
- * normal --> default; for simple navigation and editing
- * insert --> for explicitly modyfing and editing text
- * command line --> for saving and editing text 
+ * **normal** --> default; for simple navigation and editing
+ * **insert** --> for explicitly modyfing and editing text
+ * **command line** --> for saving and editing text 
 
 Main benefits of the VIM command line editor are:
- * fast navigating and file editing
+ * fast navigating
+ * convenient file editing
  * automatic code highlighting
+ * lightweight 
 
 ## How to install vim? 
 
@@ -75,6 +77,20 @@ In order to exit and save file, enter *command* line mode and type in:
 ```
 and press 'Enter'. 
 
+## Text editing 
+
+You can edit text even when not in *insert* mode. 
+
+If you want to delete whole line of text, in normal mode just type `dd` fast enough and 
+whole line where the cursor is placed should be deleted. 
+
+If you want to undo last command, just type `u`. 
+
+If you want to copy a line type in `yy` fast enough and whole line where cursor 
+is placed will be copied. 
+
+If you want to paste copied stuff, press `p` and stuff will be pasted 
+after the cursor. 
 
 ## vimtutor cmd
 
@@ -87,7 +103,7 @@ enough for you to start using vim for programming.
 
 ## Used links
 
-Most of the information are taken from: 
+Most of the information presented here is taken from: 
  * [getting started with vim](https://opensource.com/article/19/3/getting-started-vim) 
  * [how to show line numbers in vim](https://linuxize.com/post/how-to-show-line-numbers-in-vim/)
  * [vim cheat sheet](https://vim.rtorr.com/) 
