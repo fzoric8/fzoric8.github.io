@@ -47,7 +47,7 @@ ssh-rsa lot_of_random_letters_and_numbers...==<my_email>@gmail.com
 4. After opening **Settings** on the left side of the page click on `SSH and GPG keys`
 5. After opening `SSH and GPG keys` click on the green button that says **New SSH key**
 6. Type in title for your SSH key (usually PC or container name) 
-7. Paste contents of `id_rsa.pub` (SSH key) bellow tititle in **Key** window
+7. Paste contents of `id_rsa.pub` (SSH key) bellow title in **Key** window
 8. Press Add SSH key 
 
 #### Verify that you've added ssh key as follows: 
