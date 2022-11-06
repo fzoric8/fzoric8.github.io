@@ -17,6 +17,8 @@ Most important protocols are (e.g. I've worked most with them) :
  * HTTP 
  * RTSP/RTP 
 
+Awesome guide for network socket programming can be found [here](https://beej.us/guide/bgnet/).  
+
 ### Concurrency
 
 So, sometimes you have to write code that does two things at once. And that can be really painful. 
@@ -96,3 +98,5 @@ I'll eventually add more stuff as I come by it :)
 [Learn ROS from scratch](https://sir.upc.edu/projects/rostutorials/index.html)
 
 [Ros control and hardware interfaces](https://www.rosroboticslearning.com/ros-control) 
+
+[cppreference](https://en.cppreference.com/w/) 
