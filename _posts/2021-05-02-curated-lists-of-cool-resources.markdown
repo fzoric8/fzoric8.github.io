@@ -44,8 +44,9 @@ Cool repostiory that contains multiple ROS implementations of nerual networks (m
 One of the main facilities that ROS provides is the publisher-subscriber communication² that is used for message-passing between components. While it is easy to implement the publisher-subscriber, it is not obvious what is going on underneath it and how we can tailor it to our specific problems in practice. 
 In this post, there's talk about the mechanisms behind the publisher-subscriber in ROS such as its execution model, threading, queuing mechanism. 
 
-[Ros Spinning, Threading, Queueing](https://levelup.gitconnected.com/ros-spinning-threading-queuing-aac9c0a793f)  
+[ROS Spinning, Threading, Queueing](https://levelup.gitconnected.com/ros-spinning-threading-queuing-aac9c0a793f)  
 
+[ROS Determinism](https://roscon.ros.org/2017/presentations/ROSCon%202017%20Determinism%20in%20ROS.pdf)
 
 #### ROS control 
 
