@@ -123,7 +123,6 @@ rosrun rqt_topic rqt_topic
 ROS msgs have `rosmsg`  command for CLI. You can find out available commands with `rosmsg --help`, and explore further certain msg 
 type with `rosmgs show <msg_name>`... **Use available --help command in CLI**
 
-Besides that, `rqt_topic` is particulary useful if you want to visualize information propagation between different topics. 
 
 
 ## Services 
