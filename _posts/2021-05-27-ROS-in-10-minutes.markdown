@@ -1,23 +1,22 @@
 # ROS in 10 minutes
 
 
-From my experince, conceptual understanding is far more important in beggining than complete 
-understanding of all the technicalities. In the end, you can google technicalities, while gathering 
-conceptual understanding sometimes takes years to develop. In this post, I'll try to explain
-basic ROS concepts which are fundamental for any robotic application that uses ROS and for any developer/programmer/engineer 
-that's going to use ROS. 
+In the beggining, conceptual understanding is far more important than complete 
+understanding of all the technicalities. You can google technicalities, while gathering 
+conceptual understanding takes years to develop. In this post, I'll try to explain
+basic ROS concepts. 
 
 # What is ROS? 
 
 Robot operating system (ROS) is defined as set of libraries and tools for robotic application development. 
-From my perspective, core of the robot control is information exchange. We mostly want to control some 
-electro-mechanical system. Almost everything in control theory revolves around feedback loop. Feedback 
-loop provides simple, yet efficient way to compare reference value with measured value and based on 
+Core of the robot control is exchange of information. We want to control some 
+electro-mechanical system, so we need to send and recieve commands to control it. 
+Almost everything in control theory revolves around feedback loop. Feedback loop provides simple, yet efficient way to compare reference value with measured value and based on 
 difference of those two (error) undertake some action to minimize such error. Vast variety of 
 different sensors (basically mesurement devices), computing devices, actuators and algorithms 
-enable us to develop complex robotic systems. ROS provides tooling and framework which enables us to do so. 
+enable us to develop complex robotic systems. ROS provides tooling and framework to do so. 
 
-Official definition of ROS is: 
+Official definition of the ROS is: 
 ```
 ROS is an open-source, meta-operating system for your robot. It provides the services you would expect from an operating system,
 including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. 
@@ -65,8 +64,12 @@ have following nodes:
 
 Or if we have some UAV which we want to control, we could have following nodes: 
  * hw_driver --> transforms high-level references such as rotor speed into low-level commands which are passed to brushless DC motors 
- * attitude_controller_node --> implementation of cascaded PID control loop attitude control (z axis) 
- * position_controller_node --> implementation of cascaded PID control loop for position control (x,y axis)  
+ * attitude_controller_node --> implementation of cascaded PID control loop attitude control (pitch, yaw, roll cmds) 
+ * position_controller_node --> implementation of cascaded PID control loop for position control (x,y,z cmds) 
+ * gimbal_controller_node --> control gimbal
+ * camera_node -> capture images from camera
+ * state_machine_node -> state_machine for the UAV
+ * joystick_node -> UAV joystick control
 
 So you get the idea, nodes are sub-parts of your system that should be closely coupled with some robot functionality or a system. 
 
@@ -82,6 +85,9 @@ rosnode --help
 
 and you'll find out all available commands which could be of help. Such as `rosnode list` (list all currently active nodes), 
 `rosnode info <node_name>` (find out more about active node). Everything is available at the tip of your fingers, **just use available CLI**. :)
+
+Most of the nodes have `run` method. But, it's not advisable to have one. Nodes should be stand-alone, event-driven components. At the begginging, 
+all the computation should happen in the callbacks. 
 
 ## Topics 
 
@@ -107,8 +113,17 @@ rostopic --help
 After that you can find out which nodes publish/subscribe on certain topic with `rostopic info <topic_name>`, you can echo published msg with `rostopic echo <topic_name>` and
 at which frequency with `rostopic hz <topic_name>`.
 
-Same is for ROS msgs which has `rosmsg` as command for CLI. You can find out available commands with `rosmsg --help`, and explore further certain msg 
+Besides that, `rqt_topic` is particulary useful if you want to visualize information propagation between different topics. 
+
+Run it with: 
+```
+rosrun rqt_topic rqt_topic
+```
+
+ROS msgs have `rosmsg`  command for CLI. You can find out available commands with `rosmsg --help`, and explore further certain msg 
 type with `rosmgs show <msg_name>`... **Use available --help command in CLI**
+
+
 
 ## Services 
 
