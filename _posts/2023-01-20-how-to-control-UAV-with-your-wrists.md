@@ -5,7 +5,7 @@ Last spring, I was developing a system for intuitive UAV control.
 In short, I thought that controlling UAV with certain body motions would be easier than using 
 classical RC (radio-controlled) joystick. 
 
-To detect body motions, I have used simplebaselines neural network and simple web-cam. 
+To detect body motions, I have used [simplebaselines](https://www.google.com/search?channel=fs&client=ubuntu&q=simplebaselines) neural network and simple web-cam. 
 UAV control was implemented as simple PID cascade control. 
 
 With simple arithmetics, I've turned wrist movement in certain image zones, to 
@@ -70,7 +70,7 @@ Whereas most important variables are:
  * `--gpus all` --> docker has access to GPU 
  * `--volume="/dev:/dev"` --> docker has access to all devices (USBs, CAMs, etc...) 
 
-Detailed explanation of the whole system can be found [here](https://ieeexplore.ieee.org/document/9954775/). 
+## Detailed explanation of the whole system can be found [here](https://ieeexplore.ieee.org/document/9954775/). 
 
 This work shows how to efficiently and easily use docker and tmuxinator in combination for experimental purposes. 
 
