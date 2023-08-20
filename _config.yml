@@ -36,7 +36,6 @@ BASE_PATH: ""
 
 # Google Analytics
 google_analytics: 283288033
-
 # https://stackoverflow.com/questions/17207458/how-to-add-google-analytics-tracking-id-to-github-pages
 
 
